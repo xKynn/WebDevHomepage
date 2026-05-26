@@ -1,0 +1,31 @@
+{
+  "name": "webdevhomepage",
+  "version": "1.0.0",
+  "description": "A homepage site created with HTML, CSS, Vanilla JS and Bootstrap v5. The contact page was created with AI using the Auto agent router on cursor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xKynn/WebDevHomepage.git"
+  },
+  "keywords": [],
+  "author": "Aryan Yadav",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/xKynn/WebDevHomepage/issues"
+  },
+  "homepage": "https://github.com/xKynn/WebDevHomepage#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.3"
+  },
+  "dependencies": {
+    "eslint-plugin-prettier": "^5.5.5"
+  }
+}
