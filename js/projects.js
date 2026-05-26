@@ -36,21 +36,24 @@ function escapeHtml(str) {
               .replace(/'/g, "&#039;");
 }
 
-fetch(githubUrl, {
-  headers: {
-    'Accept': 'application/vnd.github.v3+json'
-  }
-})
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Unable to retreive GitHub repos.');
-        }
-        return response.json();
+window.addEventListener('load', () => {
+    fetch(githubUrl, {
+    headers: {
+        'Accept': 'application/vnd.github.v3+json'
+    }
     })
-    .then(data => {
-        console.log(data);
-        renderRepos(data);
-    })
-    .catch(error => {
-        console.error('Fetch error:', error);
-    });
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Unable to retreive GitHub repos.');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log(data);
+            renderRepos(data);
+        })
+        .catch(error => {
+            console.error('Fetch error:', error);
+        });
+});
+
