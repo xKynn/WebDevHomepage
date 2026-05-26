@@ -1,142 +1,347 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>Aryan Yadav</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="container py-4">
-        <div class="d-flex justify-content-between align-items-center">
-            <h1 class="h2 fw-bold mb-0 logo">Aryan Yadav</h1>
-            <nav class="d-flex align-items-center gap-3">
-                <a href="./index.html" class="nav-link text-dark fw-bold">Home</a>
-                <a href="./about.html" class="nav-link text-dark fw-bold">About</a>
-                <a href="./contact.html" class="btn btn-dark rounded-3 px-3 py-2 fw-bold">Contact</a>
-            </nav>
-        </div>
+      <div class="d-flex justify-content-between align-items-center">
+        <h1 class="h2 fw-bold mb-0 logo">Aryan Yadav</h1>
+        <nav class="d-flex align-items-center gap-3">
+          <a href="./index.html" class="nav-link text-dark fw-bold">Home</a>
+          <a href="./about.html" class="nav-link text-dark fw-bold">About</a>
+          <a
+            href="./contact.html"
+            class="btn btn-dark rounded-3 px-3 py-2 fw-bold"
+            >Contact</a
+          >
+        </nav>
+      </div>
     </header>
 
     <main class="container my-5">
-        <section class="mb-5 col-lg-8">
-            <h2 class="display-4 fw-medium mb-3 hero-title">Welcome To My Homepage</h2>
-            <p class="text-secondary lead lh-base hero-subtitle">
-                I'm a Software Developer with 3 years of work experience who loves solving complex problems and optimization. You can view my work experience and some of my projects below.
-            </p>
-        </section>
+      <section class="mb-5 col-lg-8">
+        <h2 class="display-4 fw-medium mb-3 hero-title">
+          Welcome To My Homepage
+        </h2>
+        <p class="text-secondary lead lh-base hero-subtitle">
+          I'm a Software Developer with 3 years of work experience who loves
+          solving complex problems and optimization. You can view my work
+          experience and some of my projects below.
+        </p>
+      </section>
 
-        <section class="projects-container p-4 p-md-5">
-            <div class="d-flex align-items-start flex-column flex-md-row gap-4">
-                
-                <div class="nav flex-column nav-pills me-md-5 tabs" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <button class="nav-link active" id="v-pills-siemens-tab" data-bs-toggle="pill" data-bs-target="#v-pills-siemens" type="button" role="tab" aria-controls="v-pills-siemens" aria-selected="true">Siemens</button>
-                    <button class="nav-link" id="v-pills-zana-tab" data-bs-toggle="pill" data-bs-target="#v-pills-zana" type="button" role="tab" aria-controls="v-pills-zana" aria-selected="true">Zana</button>
-                    <button class="nav-link" id="v-pills-poe-tab" data-bs-toggle="pill" data-bs-target="#v-pills-poe" type="button" role="tab" aria-controls="v-pills-poe" aria-selected="false">PoE.py</button>
-                    <button class="nav-link" id="v-pills-roofus-tab" data-bs-toggle="pill" data-bs-target="#v-pills-roofus" type="button" role="tab" aria-controls="v-pills-roofus" aria-selected="false">RoofUS</button>
-                    <button class="nav-link" id="v-pills-project-tab" data-bs-toggle="pill" data-bs-target="#v-pills-project" type="button" role="tab" aria-controls="v-pills-project" aria-selected="false">shmixbox</button>
-                    <button class="nav-link" id="v-pills-other-tab" data-bs-toggle="pill" data-bs-target="#v-pills-other" type="button" role="tab" aria-controls="v-pills-other" aria-selected="false">Other</button>
-                </div>
+      <section class="projects-container p-4 p-md-5">
+        <div class="d-flex align-items-start flex-column flex-md-row gap-4">
+          <div
+            class="nav flex-column nav-pills me-md-5 tabs"
+            id="v-pills-tab"
+            role="tablist"
+            aria-orientation="vertical"
+          >
+            <button
+              class="nav-link active"
+              id="v-pills-siemens-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-siemens"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-siemens"
+              aria-selected="true"
+            >
+              Siemens
+            </button>
+            <button
+              class="nav-link"
+              id="v-pills-zana-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-zana"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-zana"
+              aria-selected="true"
+            >
+              Zana
+            </button>
+            <button
+              class="nav-link"
+              id="v-pills-poe-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-poe"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-poe"
+              aria-selected="false"
+            >
+              PoE.py
+            </button>
+            <button
+              class="nav-link"
+              id="v-pills-roofus-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-roofus"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-roofus"
+              aria-selected="false"
+            >
+              RoofUS
+            </button>
+            <button
+              class="nav-link"
+              id="v-pills-project-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-project"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-project"
+              aria-selected="false"
+            >
+              shmixbox
+            </button>
+            <button
+              class="nav-link"
+              id="v-pills-other-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-other"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-other"
+              aria-selected="false"
+            >
+              Other
+            </button>
+          </div>
 
-                <div class="tab-content w-100 project-text" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-siemens" role="tabpanel" aria-labelledby="v-pills-siemens-tab" tabindex="0">
-                        <div class="mb-4">
-                            <span class="project-section-title d-block">// Technologies</span>
-                            <span class="project-section-text">C#</span>
-                        </div>
-                        <div class="mb-4">
-                            <span class="project-section-title d-block">// Description</span>
-                            <p class="project-section-text">
-                                Worked as a Software Development Engineer at Siemens. The work revolved around a C# WPF application used by many industry leading companies. My responsibilities included adding new customer-requested features, refactoring a monolithic codebase into a more modular and maintainable architecture, as well as applying expertise in asynchronous programming to design robust, deadlock-free task execution structures for WPF UI threads. I also collaborated within Agile/Scrum teams, engaged in pair programming, participated in code reviews, and mentored junior developers. I also managed third-party dependencies and led global teams to oversee product localization.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade show" id="v-pills-zana" role="tabpanel" aria-labelledby="v-pills-zana-tab" tabindex="1">
-                        <div class="mb-4">
-                            <span class="project-section-title d-block">// Technologies</span>
-                            <span class="project-section-text">Python, SQLite, ImageMagick</span>
-                        </div>
-                        <div class="mb-4">
-                            <span class="project-section-title d-block">// Description</span>
-                            <p class="project-section-text">
-                                A discord bot built on top of my PoE.py library for the game Path of Exile. It provides a 1:1 to recreation of game items with the ability to render them as images. Originally created to help enhance conversations about the game and allow theorycrafting within communities. At its peak the live instance served over 400,000+ users but was later shut down as discord wanted to verify developer's identities for big projects.
-                            </p>
-                        </div>
-                        <div>
-                            <span class="project-section-title d-block">// Links</span>
-                            <a href="https://github.com/xKynn/zana" class="project-section-text d-block text-decoration-none target-link">github.com/xKynn/zana</a>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade show" id="v-pills-poe" role="tabpanel" aria-labelledby="v-pills-poe-tab" tabindex="2">
-                        <div class="mb-4">
-                            <span class="project-section-title d-block">// Technologies</span>
-                            <span class="project-section-text">Python</span>
-                        </div>
-                        <div class="mb-4">
-                            <span class="project-section-title d-block">// Description</span>
-                            <p class="project-section-text">
-                                Started as a partner project to Zana. The library allows creating and modifying Path of Exile items for use outside the game to help with visualization or building third party tools. It also allows for fetching and converting characters from the game and other third party tools to their library representations.
-                            </p>
-                        </div>
-                        <div>
-                            <span class="project-section-title d-block">// Links</span>
-                            <a href="https://github.com/xKynn/PoE.py" class="project-section-text d-block text-decoration-none target-link">https://github.com/xKynn/PoE.py</a>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade show" id="v-pills-roofus" role="tabpanel" aria-labelledby="v-pills-roofus-tab" tabindex="3">
-                        <div class="mb-4">
-                            <span class="project-section-title d-block">// Technologies</span>
-                            <span class="project-section-text">Python, HTML, CSS, JS</span>
-                        </div>
-                        <div class="mb-4">
-                            <span class="project-section-title d-block">// Description</span>
-                            <p class="project-section-text">
-                                A housing price prediction model trained with XGBoost paired with a simple frontend to allow for user interaction. The RoofUS model was trained on aggregated data from multiple real estate sites with enhancement sets like hospital proximity, air quality, school district, etc. Achieved within 5% accurate predictions within year range of the training set. With a dataset encompassing a few years before the training timeframe, the model also had the ability to try and predict the rate at which the property would appreciate or depreciate.
-                            </p>
-                        </div>
-                        <div>
-                            <span class="project-section-title d-block">// Links</span>
-                            <a href="https://github.com/xKynn/RoofUS" class="project-section-text d-block text-decoration-none target-link">https://github.com/xKynn/RoofUS</a>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade show" id="v-pills-project" role="tabpanel" aria-labelledby="v-pills-project-tab" tabindex="4">
-                        <div class="mb-4">
-                            <span class="project-section-title d-block">// Technologies</span>
-                            <span class="project-section-text">C++, HTML, CSS, TypeScript, React, EasyEDA, Fusion360, 3D Printing</span>
-                        </div>
-                        <div class="mb-4">
-                            <span class="project-section-title d-block">// Description</span>
-                            <p class="project-section-text">
-                                A custom fighting game controller project from designing the PCB, housing and iterating on firmware. The PCB was designed in EasyEDA with an RP2040 microcontroller. The firmware was built on top on GP2040-CE with support for addressable RGB LEDs and animations, this work was done in C++ for the firmware with React for the frontend. The case was modeled with Fusion and printed with a Creality 3.
-                            </p>
-                        </div>
-                        <div>
-                            <span class="project-section-title d-block">// Links</span>
-                            <a href="https://github.com/xKynn/shmixbox" class="project-section-text d-block text-decoration-none target-link">https://github.com/xKynn/shmixbox</a>
-                            <a href="https://github.com/xKynn/GP2040-CE-shmixbox" class="project-section-text d-block text-decoration-none target-link">https://github.com/xKynn/GP2040-CE-shmixbox</a>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade overflow-auto" id="v-pills-other" role="tabpanel" aria-labelledby="v-pills-other-tab" tabindex="5">
-                    </div>
-
-                </div>
+          <div class="tab-content w-100 project-text" id="v-pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="v-pills-siemens"
+              role="tabpanel"
+              aria-labelledby="v-pills-siemens-tab"
+              tabindex="0"
+            >
+              <div class="mb-4">
+                <span class="project-section-title d-block"
+                  >// Technologies</span
+                >
+                <span class="project-section-text">C#</span>
+              </div>
+              <div class="mb-4">
+                <span class="project-section-title d-block"
+                  >// Description</span
+                >
+                <p class="project-section-text">
+                  Worked as a Software Development Engineer at Siemens. The work
+                  revolved around a C# WPF application used by many industry
+                  leading companies. My responsibilities included adding new
+                  customer-requested features, refactoring a monolithic codebase
+                  into a more modular and maintainable architecture, as well as
+                  applying expertise in asynchronous programming to design
+                  robust, deadlock-free task execution structures for WPF UI
+                  threads. I also collaborated within Agile/Scrum teams, engaged
+                  in pair programming, participated in code reviews, and
+                  mentored junior developers. I also managed third-party
+                  dependencies and led global teams to oversee product
+                  localization.
+                </p>
+              </div>
             </div>
-        </section>
+            <div
+              class="tab-pane fade show"
+              id="v-pills-zana"
+              role="tabpanel"
+              aria-labelledby="v-pills-zana-tab"
+              tabindex="1"
+            >
+              <div class="mb-4">
+                <span class="project-section-title d-block"
+                  >// Technologies</span
+                >
+                <span class="project-section-text"
+                  >Python, SQLite, ImageMagick</span
+                >
+              </div>
+              <div class="mb-4">
+                <span class="project-section-title d-block"
+                  >// Description</span
+                >
+                <p class="project-section-text">
+                  A discord bot built on top of my PoE.py library for the game
+                  Path of Exile. It provides a 1:1 to recreation of game items
+                  with the ability to render them as images. Originally created
+                  to help enhance conversations about the game and allow
+                  theorycrafting within communities. At its peak the live
+                  instance served over 400,000+ users but was later shut down as
+                  discord wanted to verify developer's identities for big
+                  projects.
+                </p>
+              </div>
+              <div>
+                <span class="project-section-title d-block">// Links</span>
+                <a
+                  href="https://github.com/xKynn/zana"
+                  class="project-section-text d-block text-decoration-none target-link"
+                  >github.com/xKynn/zana</a
+                >
+              </div>
+            </div>
 
+            <div
+              class="tab-pane fade show"
+              id="v-pills-poe"
+              role="tabpanel"
+              aria-labelledby="v-pills-poe-tab"
+              tabindex="2"
+            >
+              <div class="mb-4">
+                <span class="project-section-title d-block"
+                  >// Technologies</span
+                >
+                <span class="project-section-text">Python</span>
+              </div>
+              <div class="mb-4">
+                <span class="project-section-title d-block"
+                  >// Description</span
+                >
+                <p class="project-section-text">
+                  Started as a partner project to Zana. The library allows
+                  creating and modifying Path of Exile items for use outside the
+                  game to help with visualization or building third party tools.
+                  It also allows for fetching and converting characters from the
+                  game and other third party tools to their library
+                  representations.
+                </p>
+              </div>
+              <div>
+                <span class="project-section-title d-block">// Links</span>
+                <a
+                  href="https://github.com/xKynn/PoE.py"
+                  class="project-section-text d-block text-decoration-none target-link"
+                  >https://github.com/xKynn/PoE.py</a
+                >
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade show"
+              id="v-pills-roofus"
+              role="tabpanel"
+              aria-labelledby="v-pills-roofus-tab"
+              tabindex="3"
+            >
+              <div class="mb-4">
+                <span class="project-section-title d-block"
+                  >// Technologies</span
+                >
+                <span class="project-section-text">Python, HTML, CSS, JS</span>
+              </div>
+              <div class="mb-4">
+                <span class="project-section-title d-block"
+                  >// Description</span
+                >
+                <p class="project-section-text">
+                  A housing price prediction model trained with XGBoost paired
+                  with a simple frontend to allow for user interaction. The
+                  RoofUS model was trained on aggregated data from multiple real
+                  estate sites with enhancement sets like hospital proximity,
+                  air quality, school district, etc. Achieved within 5% accurate
+                  predictions within year range of the training set. With a
+                  dataset encompassing a few years before the training
+                  timeframe, the model also had the ability to try and predict
+                  the rate at which the property would appreciate or depreciate.
+                </p>
+              </div>
+              <div>
+                <span class="project-section-title d-block">// Links</span>
+                <a
+                  href="https://github.com/xKynn/RoofUS"
+                  class="project-section-text d-block text-decoration-none target-link"
+                  >https://github.com/xKynn/RoofUS</a
+                >
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade show"
+              id="v-pills-project"
+              role="tabpanel"
+              aria-labelledby="v-pills-project-tab"
+              tabindex="4"
+            >
+              <div class="mb-4">
+                <span class="project-section-title d-block"
+                  >// Technologies</span
+                >
+                <span class="project-section-text"
+                  >C++, HTML, CSS, TypeScript, React, EasyEDA, Fusion360, 3D
+                  Printing</span
+                >
+              </div>
+              <div class="mb-4">
+                <span class="project-section-title d-block"
+                  >// Description</span
+                >
+                <p class="project-section-text">
+                  A custom fighting game controller project from designing the
+                  PCB, housing and iterating on firmware. The PCB was designed
+                  in EasyEDA with an RP2040 microcontroller. The firmware was
+                  built on top on GP2040-CE with support for addressable RGB
+                  LEDs and animations, this work was done in C++ for the
+                  firmware with React for the frontend. The case was modeled
+                  with Fusion and printed with a Creality 3.
+                </p>
+              </div>
+              <div>
+                <span class="project-section-title d-block">// Links</span>
+                <a
+                  href="https://github.com/xKynn/shmixbox"
+                  class="project-section-text d-block text-decoration-none target-link"
+                  >https://github.com/xKynn/shmixbox</a
+                >
+                <a
+                  href="https://github.com/xKynn/GP2040-CE-shmixbox"
+                  class="project-section-text d-block text-decoration-none target-link"
+                  >https://github.com/xKynn/GP2040-CE-shmixbox</a
+                >
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade overflow-auto"
+              id="v-pills-other"
+              role="tabpanel"
+              aria-labelledby="v-pills-other-tab"
+              tabindex="5"
+            ></div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="container text-center py-4 border-top mt-5">
-        <p class="text-secondary mb-0">Made with ♥ by Aryan.</p>
+      <p class="text-secondary mb-0">Made with ♥ by Aryan.</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script type="module" src="./js/projects.js"></script>
-</body>
+  </body>
 </html>
